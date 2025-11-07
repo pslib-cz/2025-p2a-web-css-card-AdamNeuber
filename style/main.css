@@ -31,23 +31,21 @@
 @layer components {
     /* todo components */
     .card--marketer{
-        border: thin solid var(--border);
-        border-radius: 1rem;
+        border: 1px solid var(--border);
+        border-radius: 1em;
     }
 
     .heading {
-        font-size: 2rem;
+        font-size: 2em;
         font-weight: bold;
         color: var(--secondary);
     }
 
     .list {
-        padding-left: 2rem;
+        padding-left: 2em;
     }
     .list-item {
         padding: 0.5em 0;
-    }
-    .list-marker--check {
         list-style-image: url(../images/check.svg);
     }
     .list-marker--cross {
@@ -55,12 +53,12 @@
     }
 
     .btn {
-        display: inline-block;
+        display: block;
         color: white;
         border-radius: 0.5em;
         text-align: center;
         text-decoration: none;
-        padding: 1rem 25%;
+        padding: 1rem 1em;
         background-color: var(--primary);
         margin: 1em 0;
     }
@@ -69,10 +67,7 @@
         font-weight: bold;
     }
     .text--large {
-        font-size: 1.5rem;
+        font-size: 1.5em;
         font-weight: bold;
-    }
-    .text--underline {
-        text-decoration: underline;
     }
 }
