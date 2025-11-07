@@ -30,5 +30,49 @@
 
 @layer components {
     /* todo components */
- 
+    .card--marketer{
+        border: thin solid var(--border);
+        border-radius: 1rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--secondary);
+    }
+
+    .list {
+        padding-left: 2rem;
+    }
+    .list-item {
+        padding: 0.5em 0;
+    }
+    .list-marker--check {
+        list-style-image: url(../images/check.svg);
+    }
+    .list-marker--cross {
+        list-style-image: url(../images/cross.svg);
+    }
+
+    .btn {
+        display: inline-block;
+        color: white;
+        border-radius: 0.5em;
+        text-align: center;
+        text-decoration: none;
+        padding: 1rem 25%;
+        background-color: var(--primary);
+        margin: 1em 0;
+    }
+    .text--primary {
+        color: var(--primary);
+        font-weight: bold;
+    }
+    .text--large {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .text--underline {
+        text-decoration: underline;
+    }
 }
