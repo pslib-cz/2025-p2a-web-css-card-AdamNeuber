@@ -26,6 +26,9 @@
         margin: 1rem; /* without scaling */
         padding: 1em;
     }
+    .card--no-padding {
+        padding: 0 0 10em 0;
+    }
 }
 
 @layer components {
@@ -51,16 +54,22 @@
     .list-marker--cross {
         list-style-image: url(../images/cross.svg);
     }
-
     .btn {
         display: block;
         color: white;
         border-radius: 0.5em;
         text-align: center;
         text-decoration: none;
-        padding: 1rem 1em;
+        padding: 1em 1em;
         background-color: var(--primary);
         margin: 1em 0;
+    }
+    .btn2 {
+        margin: auto;
+        background-color: var(--border);
+        border-radius: 1em;
+        padding: 1em 1em;
+        width: 75%;
     }
     .text--primary {
         color: var(--primary);
@@ -69,5 +78,16 @@
     .text--large {
         font-size: 1.5em;
         font-weight: bold;
+    }
+    .text--center {
+        text-align: center;
+    }
+    .text--massive {
+        font-size: 3em;
+    }
+    .bg--green {
+        background-color: var(--border);
+        color: white;
+        padding: 2em 0;
     }
 }
